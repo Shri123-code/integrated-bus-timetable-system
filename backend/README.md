@@ -1,14 +1,12 @@
-Backend Demo - Integrated Bus Time Table System
-==============================================
+# Integrated Bus Time Table System (CS146–CS161)
 
-This backend contains a static JSON file that simulates a real API.
+This is a simple SEPM assignment-level demo.
+Folders:
+- frontend → UI to view bus timetable
+- backend  → sample JSON data
+- docs     → documentation
+- screenshots → final report images
 
-Endpoints (demo level):
-GET /backend/sample-bus-data.json → returns all bus routes.
-
-Used for:
-- Fetching bus timetable in the frontend.
-- Assignment demonstration.
-
-Testing:
-Open frontend/index.html via static server and check outputs.
+To run:
+Open frontend/index.html in browser
+Or run static server: npx http-server .
